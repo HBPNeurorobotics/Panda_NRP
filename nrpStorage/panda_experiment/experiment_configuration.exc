@@ -1,0 +1,23 @@
+<ExD 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns="http://schemas.humanbrainproject.eu/SP10/2014/ExDConfig" xsi:schemaLocation="http://schemas.humanbrainproject.eu/SP10/2014/ExDConfig ../ExDConfFile.xsd">
+  <name>Panda Robot</name>
+  <thumbnail>panda_robot_pic.jpg</thumbnail>
+  <description>The Panda robotic arm is a 7-DOF robotic arm manufactured by Franka Emika GmbH</description>
+  <tags>husky robotics holodeck braitenberg</tags>
+  <timeout>840</timeout>
+  <configuration type="3d-settings" src="ExDXMLExample.ini" />
+  <configuration type="brainvisualizer" src="brainvisualizer.json" />
+  <configuration type="user-interaction-settings" src="ExDXMLExample.uis" />
+  <maturity>production</maturity>
+  <environmentModel src="virtual_room.sdf">
+    <robotPose robotId="husky" x="0.0" y="0.0" z="0.5" roll="0.0" pitch="-0.0" yaw="3.14159265359" />
+  </environmentModel>
+  <bibiConf src="bibi_configuration.bibi" />
+  <cameraPose>
+    <cameraPosition x="5.056825994369357" y="-1.0210998541555323" z="2.697598759953974" />
+    <cameraLookAt x="0" y="0" z="0.49999" />
+  </cameraPose>
+  <rosLaunch src="robot_description.launch"/>
+  <cloneDate>2020-10-12T15:10:38</cloneDate>
+</ExD>
