@@ -1,4 +1,4 @@
 <launch>
   <!-- ros_control  launch file -->
-  <include file="$(find panda_simulation)/launch/simulation.launch"/>
+  <include file="$(find panda_simulation)/launch/HBP_panda.launch"/>
 </launch>
