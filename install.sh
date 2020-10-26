@@ -26,13 +26,12 @@ else
   exit 1
 fi
 
-rm  -fr nrpStorage
-rm  -fr ROS_Packages
-rm  -f install.sh
+sudo apt-get install ros-melodic-franka-ros=0.6.0-1bionic.20200930.133157
+sudo apt-get install ros-melodic-libfranka=0.8.0-1bionic.20200801.024519
+
 
 cd $TARGET_FOLDER_NRP_ROS/GazeboRosPackages
+source devel/setup.bash
+rosdep install panda_simulation
 catkin_make
 
-
-#Remove empty folders
-# find . -type d -empty -delete
