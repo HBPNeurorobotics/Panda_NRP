@@ -1,10 +1,14 @@
 # Installation PANDA Simulation for NRP
 
-## First way for installation.
+## Script(Automatic) installation.
 `chmod +x install.sh ` <br>
 `./install.sh ` <br>
 
-## Second way for installation.
+## Manual installation.
+Please install following ros-melodic packages with their version number.<br>
+`sudo apt-get install ros-melodic-franka-ros=0.6.0-1bionic.20200930.133157`<br>
+`sudo apt-get install ros-melodic-libfranka=0.8.0-1bionic.20200801.024519` <br>
+
 
 - Copy the folder from `Panda_NRP/ROS_Packages/Models/panda` to inside the `$HBP/Models` <br>
 - Copy all the folders from `Panda_NRP/ROS_Packages/src` to inside the `$HBP/GazeboRosPackages/src/` <br>
@@ -12,6 +16,7 @@
 
     Then, open terminal and go the the GazeboRosPackages folder <br>
     `cd $HBP/GazeboRosPackages`<br>
-    then write <br>
+    then install all dependencies for panda_simulation package by typing the following code <br>
+    `rosdep install panda_simulation` <br>
+    Finally, you can compile the workspace by typing <br>
     `catkin_make`<br>
-
