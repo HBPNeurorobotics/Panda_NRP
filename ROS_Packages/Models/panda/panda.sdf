@@ -972,7 +972,12 @@
       </axis>
     </joint>
     <static>0</static>
-    <plugin name='gazebo_ros_control' filename='libgazebo_ros_control.so'/>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+    <robotNamespace>/</robotNamespace>
+    <robotParam>/robot_description</robotParam>
+    <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+  </plugin>
+
 
      <!-- table  link -->
     <link name='table_base_link'>
