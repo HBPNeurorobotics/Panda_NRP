@@ -30,6 +30,6 @@ Finally, you can compile the workspace by typing <br>
 <img src="media/import_model.gif" height="300" width="600">
 
 ### you can start the model by clicking launch button. <br>
-[![Panda Robot NRP](https://i9.ytimg.com/vi/e2jqCZQ20po/mq3.jpg?sqp=COC53_wF&rs=AOn4CLBk7czLU1L8cTnVZUEiSDr9ucWCEQ)](https://youtu.be/e2jqCZQ20po)
+[![Panda Robot NRP](https://i9.ytimg.com/vi/e2jqCZQ20po/mq3.jpg?sqp=CIyd4fwF&rs=AOn4CLB5ieSC1qGFhOyVtH652_nbQYTP_w)](https://youtu.be/e2jqCZQ20po)
 
 
