@@ -1,4 +1,4 @@
-# Installation PANDA Simulation for NRP
+# Installation PANDA Simulation for the NRP
 
 ## Script(Automatic) installation.
 `chmod +x install.sh ` <br>
@@ -26,7 +26,7 @@ Please install following ros-melodic packages with their version number.<br>
 
 <img src="media/import_model.gif" height="300" width="600">
 
-### you can start the model by clikcing launch button. <br>
+### you can start the model by click launch button. <br>
 [![Panda Robot NRP](https://i9.ytimg.com/vi/e2jqCZQ20po/mq3.jpg?sqp=COC53_wF&rs=AOn4CLBk7czLU1L8cTnVZUEiSDr9ucWCEQ)](https://youtu.be/e2jqCZQ20po)
 
 
