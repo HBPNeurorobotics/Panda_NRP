@@ -14,12 +14,15 @@ Please install following ros-melodic packages with their version number.<br>
 - Copy all the folders from `Panda_NRP/ROS_Packages/src` to inside the `$HBP/GazeboRosPackages/src/` <br>
 - Copy the folder from `Panda_NRP/nrpStorage/panda_experiment` to inside the `/.opt/nrpStorage` <br>
 
-    Then, open terminal and go the the GazeboRosPackages folder <br>
-    `cd $HBP/GazeboRosPackages`<br>
-    then install all dependencies for panda_simulation package by typing the following code <br>
-    `rosdep install panda_simulation` <br>
-    Finally, you can compile the workspace by typing <br>
-    `catkin_make`<br>
+- Then, open terminal and go the the GazeboRosPackages folder <br>
+`cd $HBP/GazeboRosPackages`<br>
+then install all dependencies for panda_simulation package by typing the following code <br>
+`rosdep install panda_simulation` <br>
+- To create symlinks both in ~/.gazebo/models (for Gazebo) and ${HBP}/gzweb/http/client/assets (for the web). Please run the following code in the terminal.<br>
+`$HBP/Models/create-symlinks.sh`
+
+Finally, you can compile the workspace by typing <br>
+`catkin_make`<br>
 
 
 ### you can import the model by clicking "Scan Storage" under "My Experiment" section : <br>

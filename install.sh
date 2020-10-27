@@ -33,5 +33,6 @@ sudo apt-get install ros-melodic-libfranka=0.8.0-1bionic.20200801.024519
 cd $TARGET_FOLDER_NRP_ROS/GazeboRosPackages
 source devel/setup.bash
 rosdep install panda_simulation
+$TARGET_FOLDER_NRP_ROS/Models/create-symlinks.sh
 catkin_make
 
