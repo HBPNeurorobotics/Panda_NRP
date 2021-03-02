@@ -1,4 +1,4 @@
-# Installation PANDA Simulation for the NRP
+# Installation PANDA Simulation for the NRP 3.0.X
 
 ## Script(Automatic) installation.
 `chmod +x install.sh ` <br>
