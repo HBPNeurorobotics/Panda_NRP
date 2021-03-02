@@ -1,4 +1,4 @@
-# Installation PANDA Simulation for the NRP
+# Installation PANDA Simulation for the NRP Version 3.1.x
 
 ## Script(Automatic) installation.
 `chmod +x install.sh ` <br>
@@ -6,8 +6,7 @@
 
 ## Manual installation.
 Please install following ros-melodic packages with their version number.<br>
-`sudo apt-get install ros-melodic-franka-ros=0.6.0-1bionic.20200930.133157`<br>
-`sudo apt-get install ros-melodic-libfranka=0.8.0-1bionic.20200801.024519` <br>
+`sudo apt install ros-noetic-libfranka` <br>
 
 
 - Copy the folder from `Panda_NRP/ROS_Packages/Models/panda` to inside the `$HBP/Models` <br>
@@ -22,7 +21,7 @@ then install all dependencies for panda_simulation package by typing the followi
 `$HBP/Models/create-symlinks.sh`
 
 Finally, you can compile the workspace by typing <br>
-`catkin_make`<br>
+`catkin build`<br>
 
 
 ### you can import the model by clicking "Scan Storage" under "My Experiment" section : <br>

@@ -26,13 +26,11 @@ else
   exit 1
 fi
 
-sudo apt-get install ros-melodic-franka-ros=0.6.0-1bionic.20200930.133157
-sudo apt-get install ros-melodic-libfranka=0.8.0-1bionic.20200801.024519
-
+sudo apt install -y ros-noetic-libfranka 
 
 cd $TARGET_FOLDER_NRP_ROS/GazeboRosPackages
 source devel/setup.bash
 rosdep install panda_simulation
 $TARGET_FOLDER_NRP_ROS/Models/create-symlinks.sh
-catkin_make
+catkin build
 
